@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Tick and Load</title>
+</head>
+<body>
+    <h1>Tick and Load</h1>
+
+    <main class="main">
+
+        <!-- countdown Section -->
+        <section class="countdown-section">
+
+            <h2>Countdown</h2>
+
+            <div class="input-div">
+
+                <input id="hours" type="number" min="0" max="23" value="00">:
+                <input id="minutes" type="number" min="0" max="59" value="00">:
+                <input id="seconds" type="number" min="0" max="59" value="00">
+           
+            </div>
+
+            <button class="start-btn">
+                Start
+            </button>
+
+        </section>
+
+        <!-- Progress section -->
+        <section class="progress-section">
+
+            <h2>Progress</h2>
+
+            <div class="progress-bar">
+
+                <div class="color transition">
+                    <p class="percentage">0%</p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
