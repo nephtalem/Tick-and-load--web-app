@@ -18,7 +18,6 @@ h1{
     padding: 2rem;
     gap: 1rem;
     align-items: flex-start;
-    flex-wrap:wrap;
 }
 
 .main .countdown-section {
@@ -98,4 +97,17 @@ input{
 
 .transition{
     transition: width 0.5s ease-in-out;
+}
+
+
+@media (max-width:480px){
+    .main{
+        flex-direction: column;
+    }
+    .main .countdown-section{
+        width: 100%;
+    }
+    .main .progress-section{
+        width: 100%;
+    }
 }
